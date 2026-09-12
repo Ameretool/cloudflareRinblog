@@ -100,7 +100,7 @@ export function AppRoutes() {
         <ProfilePage />
       </AppRoute>
 
-        <TocRoute path="/feed/:id">
+      <TocRoute path="/feed/:id">
         {(params, toc, cleanup) => <FeedPage id={params.id || ""} TOC={toc} clean={cleanup} />}
       </TocRoute>
 
