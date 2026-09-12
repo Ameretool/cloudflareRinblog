@@ -1,4 +1,4 @@
-![封面](./docs/docs/public/rin-logo.png)
+
 
 [English](./README.md) | 简体中文
 
