@@ -100,9 +100,6 @@ export function AppRoutes() {
         <ProfilePage />
       </AppRoute>
 
-      //  <TocRoute path="/feed/:id">   原
-      // 将 path="/feed/:id" 修改为 path="/post/:id.html"  AI 给的
-      // <Route path="/post/:id.html" component={PostPage} />
         <TocRoute path="/feed/:id">
         {(params, toc, cleanup) => <FeedPage id={params.id || ""} TOC={toc} clean={cleanup} />}
       </TocRoute>
